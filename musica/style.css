@@ -1,0 +1,147 @@
+body
+{
+  
+    background-color: rgb(240, 214, 219);
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    background-color: rgb(161, 228, 228);
+    display: flex;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Geologica', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 12px;
+ 
+}
+nav{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Geologica', sans-serif;
+    margin-left: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+nav ul{
+    display:flex;
+
+ 
+}
+nav ul li {
+    list-style-type:none;
+    padding: 14px;
+    padding-bottom: 0px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li a:hover{
+    background-color: rgb(195, 215, 233);
+    margin: 0px;
+    text-decoration: underline;
+}
+.brand{
+    margin: 2px;
+    height:50px;
+    border: 2px solid black;
+    border-radius:360px
+
+}
+span
+{
+ 
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.container
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    min-height: 70vh;
+    background-color: aliceblue;
+    color:black;
+    margin:40px auto;
+    width:70%;
+    opacity: 0.6;
+    border-radius: 12px;
+    background-image: url(./img/bg.png) ;
+    background-position:  0 100%;
+    
+    
+}
+.songlist h1{
+    color: aliceblue;
+    text-shadow: 1px 1px 0px black;
+}
+.bottom
+{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(161, 228, 228);
+    bottom:0px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.icons
+{
+    margin-top: 40px;
+    margin: 10px;;
+}
+.icons i
+{
+    padding: 12px;
+    cursor :pointer;
+}
+#myProgressBar
+{
+    margin-top: 20px;
+    cursor: grab;
+    width:80vw;
+}
+.songitem
+{
+    height:50px;
+    display:flex;
+    background-color: hotpink;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;;
+}
+.songitem img{
+    width:50px;
+    margin:0 23px;
+    border-radius: 34px;
+}
+.timestamp
+{
+    margin:0 23px;
+}
+.songitemcon
+{
+    margin:40px 12px;
+}
+.songinfo img
+{
+
+    padding:0px;
+}
+.songinfo{
+    position: absolute;
+    left:0;
+}
